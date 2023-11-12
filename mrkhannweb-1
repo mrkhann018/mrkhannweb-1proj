@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<head>
+    <style>
+        nav{
+            display: flex;
+            
+        }
+        .div2{
+            display: flex;
+            text-align: right;
+            margin-left: auto; 
+        }
+        .div2 p{
+            margin: 10px;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .name{
+            font-size: 28px;
+            font-weight: 400;
+            margin: 0;
+        }
+        .img{
+            display: flex;
+        }
+        #intro{
+            display: flex;
+        }
+        #intro div p {
+            font-size: 24px;
+            font-weight: 400;
+        }
+        #into div h1{
+            font-size: 56px;
+            font-weight: 400;
+        }
+        #intro div button{
+            background-color: #46aee8;
+            color: #fff;
+            border: 0;
+            border-radius: 20px;
+            padding: 20px;
+            font-size: 20px;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: auto auto auto ;
+        }
+        #about{
+            text-align: center;
+        }
+        #contact p{
+            text-align: center;
+        }
+        form{
+            background-color: aquamarine;
+            width: fit-content;
+            padding: 20px;
+            margin: 0 auto;
+            display: grid;
+            justify-items: center;
+        }
+
+        .fans{
+         display:grid;
+        }
+        .workk{
+            text-align: center;
+        } 
+        #intro .img {
+            margin-left: auto;
+        }
+        .cont{
+            text-align: center;
+        }
+        .done{
+            display: flex;
+        }
+        .grroo{
+            border-left-width: auto;
+        }
+        .overr{
+            display: flex;
+            background-color: darkblue;
+            display: inline-flex;
+            
+        }
+        .ober{
+            text-align: center;
+            
+        }
+        #sticky-wrapper{
+            border-block-start-width: 0cap;
+            background-color: darkgoldenrod;
+        }
+        .grid{
+            grid-auto-flow: row;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="name">
+                <p>Ezhar Khan</p>
+
+            </div>
+            <div class="div2">
+
+                <p>My Experience</p>
+                <p>Contact</p>
+                <p>About</p>
+            </div>
+
+        </nav>
+    </header>
+    <header>
+        <div id="sticky-wrapper" class="sticky-wrapper" style="height: 92.5625px;">…</div><div class="fame-mid-wrap fame-page-wrap padding-cnt-no full-width" style>…</div>
+    </header>
+
+    <main>
+        <section id="intro">
+            <div>
+                <div>
+                    <p>Hi i'm Ezhar Khan and I am a</p>
+                    <h1>SERVER ADMINISTRATOR</h1>
+                    <p>I do handle servers of </p>
+                    <p>NETTLINX </p>
+                    <P>Im Working with them since 2004</P>
+                    <p>Nettlinx Ltd provides B2B Dedicated Internet Leased Lines (1:1) through  a network built on world class technology.</p>
+                </div>
+                <div>
+                    <button>
+                        Contact Me
+                    </button>
+                </div>
+                        </div>
+            <div class="img">
+                <img src="https://www.nettlinx.com/wp-content/uploads/2021/09/pamphlet-middle-image.png">
+            </div>
+        </section>
+             <img src="Images/MouseSimple.png" alt="" srcset="">
+
+        <section id="work">
+            <div class="workk">
+                My Work
+                <p>The projects I’ve worked on</p>
+            </div>
+            <div class="grid">
+                <div>
+                    <img src="data:image/jpeg;base64,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" alt="">
+                    <div>
+                        <p>Project 1</p>
+                        <p>Servers of Nettlinx </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://www.nettlinx.com/wp-content/uploads/2021/09/faqimg.png">
+                    <div>
+                        <p>Project 2</p>
+                        <p>Frontend and backend</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="Images/img3.png" alt="">
+                    <div>
+                        <p>Project 3</p>
+                        <p>Frontend and backend</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div>
+                <p><b>About me</b></p>
+
+                <p>I am a server administrative,devloper,critical thinker, decision-making, my creativity, and informative processing to my freshers.  I did work harder on my skills while pursuing my degree. The server administrative post its a hug responsbilty for me.My company trusts in my hardwork and  dedication and suports me . </p>
+            </div>
+            <DIV class="grid"> <img src="https://www.nettlinx.com/wp-content/uploads/2019/04/network-globe.png" alt=""></DIV>
+            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4725bb3" data-id="4725bb3" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                <div class="elementor-widget-wrap elementor-element-populated">…</div>
+            <div class="ober">
+                <h1>COMPANY OVERVIEW</h1>
+                <p> Nettlinx Limited is a public-listed company & started its Internet Service Provider (ISP) operations in 1999 and has since grown to become the leading Class ‘B’ ISP operator in TS & AP with a customer base of more than 9000 clients.</p>
+            </div>
+            <div class="fans" >
+                <div>
+                    <p>my schooling</p>
+                    <table>
+                       <tbody>
+                        <tr>
+                            <td>2007-20010</td>
+                            <td>Play school</td>
+                        </tr>
+                        <tr>
+                            <td>2010-2021</td>
+                            <td>Sacred Heart High school</td>
+                        </tr>
+                        <tr>
+                            <td>2021-2023</td>
+                            <td>Hyderabad Institute Of Excellence</td>
+                        </tr>
+                        <tr>
+                            <td>2023-2027</td>
+                            <td>Lords Instiute Of ENGINEERING and Technology</td>
+                        </tr>
+                        <tr>
+                            <td>2006-2008</td>
+                            <td>Play school</td>
+                        </tr>
+                       </tbody>
+                    </table>
+                </div>
+                <div class="done">
+                    <p>My hobbies</p>
+
+                    <div>
+                        <p>Body Building</p>
+                        <p>Body Building</p>
+                        <p>Body Building</p>
+                        <p>Body Building</p>
+                        <p>Body Building</p>
+
+                    </div>
+                </div>
+                <div>
+                    <p>Things i am good at</p>
+
+                    <div class="grroo" >
+                        <ul>
+                            <li>
+                                <div>
+                                    <p>Coding</p>
+                                    <p>*****</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>Coding</p>
+                                    <p>*****</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>Coding</p>
+                                    <p>*****</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>Coding</p>
+                                    <p>*****</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Contact">
+            <div class="cont">
+                <p>Contact Me</p>
+
+                <form>
+                    <div>
+                        <label for="name">name</label>
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div>
+                        <label for="Email">Email</label>
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div>
+                        <label for="message">message</label>
+                        <input type="text" placeholder="message">
+                    </div>
+
+                    <div>
+                        <button>Send</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
